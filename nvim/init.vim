@@ -58,4 +58,12 @@ let g:tagbar_width = 25
 let NERDTreeShowHidden = 1
 let g:NERDTreeWinSize = 25
 
-
+"---coc---"
+let g:coc_global_extensions = [
+            \'coc-css',
+            \'coc-json',
+            \'coc-tsserver',
+            \'coc-pyright',
+            \'coc-go',
+            \'coc-clangd'
+            \]
