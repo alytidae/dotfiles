@@ -59,11 +59,20 @@ let NERDTreeShowHidden = 1
 let g:NERDTreeWinSize = 25
 
 "---coc---"
+"https://github.com/neoclide/coc.nvim/issues/2088
 let g:coc_global_extensions = [
             \'coc-css',
             \'coc-json',
             \'coc-tsserver',
             \'coc-pyright',
             \'coc-go',
-            \'coc-clangd'
+            \'coc-ccls'
             \]
+
+" Use tab for trigger completion with characters ahead and navigate.
+" Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
