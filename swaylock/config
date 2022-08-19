@@ -1,0 +1,15 @@
+ignore-empty-password
+
+image=/home/igor/documents/wallpapers/10-13-inv.jpg
+
+ring-color=033efc
+inside-color=00000000
+
+ring-wrong-color=ff0000
+inside-wrong-color=ff000080
+
+ring-clear-color=ff9100
+inside-clear-color=ff910080
+
+key-hl-color=ffffff90
+layout-bg-color=00000000

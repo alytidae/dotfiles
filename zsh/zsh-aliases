@@ -1,0 +1,5 @@
+#!/bin/sh
+alias ls='ls --color=auto'
+alias ll='ls -lha'
+alias e='nvim'
+alias bat='bat --theme="Dracula"'

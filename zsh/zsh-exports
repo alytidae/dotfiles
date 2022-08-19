@@ -1,0 +1,20 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export GOPATH="/home/igor/prom/.go"
+export PATH="$HOME/bin:$PATH"
+
+#ls colorize
+export CLICOLOR=1
+export LSCOLORS=gxFxCxDxBxegedabagaced
+
+#For wayland + sway
+export XDG_SESSION_TYPE='wayland'
+export XDG_CURRENT_DESKTOP='sway'
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+	export EDITOR='vim'
+else
+	export EDITOR='nvim'
+fi
+
