@@ -15,16 +15,20 @@ return require('packer').startup(function(use)
 		end
 	}
 	use 'folke/tokyonight.nvim'
+	use 'NvChad/nvim-colorizer.lua' -- the fastest Neovim colorizer	
 	use {
-		"williamboman/nvim-lsp-installer",
+		"williamboman/mason.nvim",
+		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	}
-	use 'NvChad/nvim-colorizer.lua' -- the fastest Neovim colorizer
-	
+
 	-- CMP
-	use 'hrsh7th/nvim-cmp'
 	use 'hrsh7th/cmp-nvim-lsp'
-	use 'L3MON4D3/LuaSnip'
-	use 'saadparwaiz1/cmp_luasnip'
-	use 'onsails/lspkind-nvim'
+	use 'hrsh7th/nvim-cmp'
+
+	-- snippet engine
+	use 'dcampos/nvim-snippy'
+	use 'dcampos/cmp-snippy'
+
+	--use 'onsails/lspkind-nvim'
 end)
