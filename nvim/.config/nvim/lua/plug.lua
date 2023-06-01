@@ -22,6 +22,12 @@ return require('packer').startup(function(use)
 		"neovim/nvim-lspconfig",
 	}
 
+	use {
+		'numToStr/Comment.nvim',
+		config = function()
+			require('Comment').setup()
+		end
+	}
 	-- CMP
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/nvim-cmp'
