@@ -1,2 +1,2 @@
 zsh/plugins
-zsh/.config/zsh/.zcompdump
+/zsh/.config/zsh/.zcompdump*
