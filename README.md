@@ -1,11 +1,9 @@
 ## Installation
-
 ```sh
 $ ln -s /home/{username}/dotfiles/{package} /home/{username}/.config
 ```
 
 ### Nvim
-
 To install all plugins write this inside nvim
 
 ```nvim
@@ -16,3 +14,6 @@ To install all plugins write this inside nvim
 ```sh
 $ ln -s /home/{username}/dotfiles/other/fonts /home/{username}/.local/share/fonts
 ```
+
+## License
+Licensed under [The MIT License](https://opensource.org/license/mit/)
