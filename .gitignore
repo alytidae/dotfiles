@@ -2,3 +2,4 @@ nvim/plugin
 
 zsh/plugins
 zsh/.zcompdump*
+zsh/.histfile
