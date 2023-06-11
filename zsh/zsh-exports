@@ -18,3 +18,22 @@ else
 	export EDITOR='nvim'
 fi
 
+# For export XDG_RUNTIME_DIR
+if [ -z "$XDG_RUNTIME_DIR" ]; then  # It's not already set
+  XDG_RUNTIME_DIR=/run/user/$UID  # Try systemd created path
+  if [ ! -d "$XDG_RUNTIME_DIR" ]; then
+    # systemd-created directory doesn't exist
+    XDG_RUNTIME_DIR=/tmp/$USER-runtime
+    if [ ! -d "$XDG_RUNTIME_DIR" ]; then  # Doesn't already exist
+      mkdir -m 0700 "$XDG_RUNTIME_DIR"
+    fi
+  fi
+fi
+# Check dir has got the correct type, ownership, and permissions
+if ! [[ -d "$XDG_RUNTIME_DIR" && -O "$XDG_RUNTIME_DIR" &&
+    "$(stat -c '%a' "$XDG_RUNTIME_DIR")" = 700 ]]; then
+  echo "\$XDG_RUNTIME_DIR: permissions problem with $XDG_RUNTIME_DIR:" >&2
+  ls -ld "$XDG_RUNTIME_DIR" >&2
+  XDG_RUNTIME_DIR=$(mktemp -d /tmp/"$USER"-runtime-XXXXXX)
+  echo "Set \$XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR" >&2
+fi
