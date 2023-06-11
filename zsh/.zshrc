@@ -11,14 +11,14 @@
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+HISTFILE=~/.config/zsh/.histfile
 HISTSIZE=3000
 SAVEHIST=1000
 setopt autocd extendedglob nomatch menucomplete
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/igor/.config/zsh/.zshrc'
+zstyle :compinstall filename '~/.config/zsh/.zshrc'
 
 autoload -Uz compinit
 compinit
