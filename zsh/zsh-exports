@@ -1,6 +1,6 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-export GOPATH="/home/igor/prom/.go"
+export GOPATH="/home/igor/ws/.go"
 export PATH="$HOME/bin:$PATH"
 
 #ls colorize
