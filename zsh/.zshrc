@@ -46,6 +46,6 @@ zsh_add_plugin "hlissner/zsh-autopair"
 # For more plugins: https://github.com/unixorn/awesome-zsh-plugins
 # More completions https://github.com/zsh-users/zsh-completions
 
-if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
+if [ "$(tty)" = "/dev/tty1" ]; then
     exec sway
 fi
