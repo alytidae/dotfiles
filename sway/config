@@ -24,7 +24,7 @@ set $menu exec yofi
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/igor/documents/wallpapers/10-14-Night.jpg fill
+output * bg wallpaper/night.jpg fill
 #
 # Example configuration:
 #
