@@ -2,6 +2,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export CARGO_HOME="${HOME}/ws/.cargo"
+export RUSTUP_HOME="${HOME}/ws/.rustup"
 export GOPATH="${HOME}/ws/.go"
 
 export PATH="$HOME/ws/.cargo/bin:$PATH"
