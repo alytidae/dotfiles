@@ -3,6 +3,8 @@ export LANG=en_US.UTF-8
 
 export CARGO_HOME="${HOME}/ws/.cargo"
 export GOPATH="${HOME}/ws/.go"
+
+export PATH="$HOME/ws/.cargo/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 
 #ls colorize
