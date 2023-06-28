@@ -1,4 +1,5 @@
 ## Installation
+I prefer not to use additional programs like *stow*, so I use just:
 ```sh
 $ ln -s /home/{username}/dotfiles/{package} /home/{username}/.config
 ```
