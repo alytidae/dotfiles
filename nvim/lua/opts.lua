@@ -4,7 +4,7 @@ local opt = vim.opt
 -- [[ Context ]]
 -- opt.colorcolumn = '80'           -- str:  Show col for max line length
 opt.number = true                -- bool: Show line numbers
-opt.scrolloff = 6                -- int:  Min num lines of context
+opt.scrolloff = 4                -- int:  Min num lines of context
 opt.signcolumn = "yes"           -- str:  Show the sign column
 opt.wrap = false
 
