@@ -108,6 +108,7 @@ window#waybar.chromium {
 }
 
 #clock {
+	border-radius: 5px;
 }
 
 #battery {
