@@ -92,7 +92,7 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr} ({signalStrength}%)",
+        "format-alt": "{ifname}: {ipaddr}/{cidr} {essid} ({signalStrength}%)",
 	    "on-click": "nm-applet",
     },
     "pulseaudio": {
