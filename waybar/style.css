@@ -3,6 +3,8 @@
 	font-family: Roboto, Arial, Helvetica, sans-serif, "Font Awesome 6 Brands", "Font Awesome 6 Free";
     font-size: 15px;
 	border-radius: 5px;
+	border: 0px;
+	margin: 0px;
 }
 
 window#waybar {
