@@ -8,7 +8,7 @@
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     "modules-center": ["clock"],
 	// deleted "cpu", "memory"
-    "modules-right": ["pulseaudio", "network", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "tray"],
+    "modules-right": ["group/right"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -25,6 +25,19 @@
     //         "default": ""
     //     }
     // },
+		"group/right": {
+			"orientation": "horizontal",
+				"modules": [
+					"pulseaudio",
+					"network",
+					"temperature",
+					"backlight",
+					"keyboard-state",
+					"sway/language",
+					"battery",
+					"tray"
+    		]
+	},
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
