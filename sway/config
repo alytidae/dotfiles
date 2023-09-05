@@ -244,6 +244,7 @@ gaps inner 5
 gaps outer 5
 
 default_border none
+corner_radius 10
 
 font pango:FiraMono Nerd Font Mono Regular 10
 
