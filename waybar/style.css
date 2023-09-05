@@ -2,7 +2,7 @@
     /* `otf-font-awesome` is required to be installed for icons */
 	font-family: Roboto, Arial, Helvetica, sans-serif, "Font Awesome 6 Brands", "Font Awesome 6 Free";
     font-size: 15px;
-	border-radius: 5px;
+	border-radius: 0px;
 	border: 0px;
 	margin: 0px;
 }
