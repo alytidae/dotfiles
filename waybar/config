@@ -7,7 +7,8 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "tray"],
+	// deleted "cpu", "memory"
+    "modules-right": ["pulseaudio", "network", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -85,12 +86,13 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        //"format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "format-alt": "{ifname}: {ipaddr}/{cidr} ({signalStrength}%)",
 	    "on-click": "nm-applet",
     },
     "pulseaudio": {
