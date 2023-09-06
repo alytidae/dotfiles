@@ -23,6 +23,7 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+
 /*
 window#waybar.empty {
     background-color: transparent;
@@ -31,6 +32,17 @@ window#waybar.solo {
     background-color: #FFFFFF;
 }
 */
+
+
+#pulseaudio{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#battery {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
 
 window#waybar.termite {
     background-color: #3F3F3F;
