@@ -1,7 +1,5 @@
 ignore-empty-password
 
-image=TODO:set image
-
 ring-color=033efc
 inside-color=00000000
 
@@ -12,4 +10,4 @@ ring-clear-color=ff9100
 inside-clear-color=ff910080
 
 key-hl-color=ffffff90
-layout-bg-color=00000000
+layout-bg-color=000000
