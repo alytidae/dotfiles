@@ -19,63 +19,74 @@ window:
     y: 0
   dynamic_padding: true
 
-    ## TokyoNight Alacritty Colors
-    #colors:
-    #  # Default colors
-    #  primary:
-    #    background: '0x1a1b26'
-    #    foreground: '0xc0caf5'
-    #
-    #  # Normal colors
-    #  normal:
-    #    black:   '0x15161E'
-    #    red:     '0xf7768e'
-    #    green:   '0x9ece6a'
-    #    yellow:  '0xe0af68'
-    #    blue:    '0x7aa2f7'
-    #    magenta: '0xbb9af7'
-    #    cyan:    '0x7dcfff'
-    #    white:   '0xa9b1d6'
-    #
-    #  # Bright colors
-    #  bright:
-    #    black:   '0x414868'
-    #    red:     '0xf7768e'
-    #    green:   '0x9ece6a'
-    #    yellow:  '0xe0af68'
-    #    blue:    '0x7aa2f7'
-    #    magenta: '0xbb9af7'
-    #    cyan:    '0x7dcfff'
-    #    white:   '0xc0caf5'
-    #
-    #  indexed_colors:
-    #    - { index: 16, color: '0xff9e64' }
-    #    - { index: 17, color: '0xdb4b4b' }
+# TokyoNight Alacritty Colors
+#colors:
+#  # Default colors
+#  primary:
+#    background: '0x1a1b26'
+#    foreground: '0xc0caf5'
+#
+#  # Normal colors
+#  normal:
+#    black:   '0x15161E'
+#    red:     '0xf7768e'
+#    green:   '0x9ece6a'
+#    yellow:  '0xe0af68'
+#    blue:    '0x7aa2f7'
+#    magenta: '0xbb9af7'
+#    cyan:    '0x7dcfff'
+#    white:   '0xa9b1d6'
+#
+#  # Bright colors
+#  bright:
+#    black:   '0x414868'
+#    red:     '0xf7768e'
+#    green:   '0x9ece6a'
+#    yellow:  '0xe0af68'
+#    blue:    '0x7aa2f7'
+#    magenta: '0xbb9af7'
+#    cyan:    '0x7dcfff'
+#    white:   '0xc0caf5'
+#
+#  indexed_colors:
+#    - { index: 16, color: '0xff9e64' }
+#    - { index: 17, color: '0xdb4b4b' }
 
-# Colors (Alabaster Dark)
 colors:
-  name: Alabaster (dark)
   primary:
-    background: "#0E1415"
-    foreground: "#CECECE"
+    background: '0x191622'
+    foreground: '0xe1e1e6'
+
   cursor:
-    text: "#0E1415"
-    cursor: "#CECECE"
+    text: '0x191622'
+    cursor: '0xf8f8f2'
+
   normal:
-    black: "#0E1415"
-    red: "#e25d56"
-    green: "#73ca50"
-    yellow: "#e9bf57"
-    blue: "#4a88e4"
-    magenta: "#915caf"
-    cyan: "#23acdd"
-    white: "#f0f0f0"
+    black: '0x000000'
+    red: '0xff5555'
+    green: '0x50fa7b'
+    yellow: '0xeffa78'
+    blue: '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan: '0x8d79ba'
+    white: '0xbfbfbf'
+
   bright:
-    black: "#777777"
-    red: "#f36868"
-    green: "#88db3f"
-    yellow: "#f0bf7a"
-    blue: "#6f8fdb"
-    magenta: "#e987e9"
-    cyan: "#4ac9e2"
-    white: "#FFFFFF"
+    black: '0x4d4d4d'
+    red: '0xff6e67'
+    green: '0x5af78e'
+    yellow: '0xeaf08d'
+    blue: '0xcaa9fa'
+    magenta: '0xff92d0'
+    cyan: '0xaa91e3'
+    white: '0xe6e6e6'
+
+  dim:
+    black: '0x000000'
+    red: '0xa90000'
+    green: '0x049f2b'
+    yellow: '0xa3b106'
+    blue: '0x530aba'
+    magenta: '0xbb006b'
+    cyan: '0x433364'
+    white: '0x5f5f5f'
