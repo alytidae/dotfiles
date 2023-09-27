@@ -239,13 +239,14 @@ bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
 
-gaps inner 5
+gaps inner 0
 gaps outer 0
 
-default_border none
+default_border pixel 3
 corner_radius 0
 
 font pango:FiraMono Nerd Font Mono Regular 10
+client.focused "#ff0000" "#ff0000" "#ff0000" "#433364" "#433364"
 
 exec_always udiskie --automount &
 exec --no-startup-id 'nm-applet --indicator'
