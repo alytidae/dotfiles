@@ -1,5 +1,8 @@
 theme = "base16_transparent"
 
+[editor]
+auto-completion = false
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"

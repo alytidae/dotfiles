@@ -3,4 +3,3 @@
 # Binary for language server: /usr/bin/rust-analyzer
 [[language]]
 name = "rust"
-auto-format = true
