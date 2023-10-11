@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
 			require'alpha'.setup(require'alpha.themes.startify'.config)
 		end
 	}
-	use 'folke/tokyonight.nvim'
+	use 'yonlu/omni.vim'
 	use 'NvChad/nvim-colorizer.lua' -- the fastest Neovim colorizer	
 	use {
 		"williamboman/mason.nvim",
@@ -31,8 +31,8 @@ return require('packer').startup(function(use)
 	-- CMP
 	use 'hrsh7th/cmp-nvim-lsp'
 	use 'hrsh7th/nvim-cmp'
-    use 'hrsh7th/cmp-buffer'
-    use 'hrsh7th/cmp-path'
+    	use 'hrsh7th/cmp-buffer'
+    	use 'hrsh7th/cmp-path'
 
 	--snippet engine
 	use 'L3MON4D3/LuaSnip'
