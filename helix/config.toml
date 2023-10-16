@@ -11,3 +11,6 @@ select = "underline"
 [keys.insert]
 j = { k = "normal_mode" } # Maps `jk` to exit
 C-space = "completion"
+
+[keys.normal]
+C-r = ":sh cargo run"
