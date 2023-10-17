@@ -18,7 +18,7 @@ set $term alacritty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 
-set $menu exec yofi
+set $menu exec fuzzel -I -l 5 -b 191622ff -s 433364ff -S ff79c6ff -r 0 -B 3 -C 433364FF -M 50fa7bff
 
 ### Output configuration
 #
