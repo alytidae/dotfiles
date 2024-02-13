@@ -6,3 +6,7 @@ name = "rust"
 
 [[language]]
 name = "python"
+
+[[language]]
+name = "cpp"
+
