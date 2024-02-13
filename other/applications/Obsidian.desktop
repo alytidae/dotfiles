@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/bin/Obsidian.Appimage -- %u
+Name=Obsidian
+Comment=Obsidian is the private and flexible note‑taking app that adapts to the way you think
