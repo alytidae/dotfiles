@@ -23,7 +23,7 @@ set $menu exec fuzzel -I -l 5 -b 191622ff -s 433364ff -S ff79c6ff -r 0 -B 3 -C 4
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg wallpaper/home.png fill
+output * bg /home/igor/docs/wallpaper/ghibli-wallpaper.jpg fill
 #
 # Example configuration:
 #
@@ -250,3 +250,5 @@ client.focused "#ff0000" "#ff0000" "#ff0000" "#433364" "#433364"
 
 exec_always udiskie --automount &
 exec --no-startup-id 'nm-applet --indicator'
+exec pipewire
+exec pipewire-pulse
