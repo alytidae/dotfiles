@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=flatpak run net.ankiweb.Anki
+Name=Anki
+Comment=Learn all you want
