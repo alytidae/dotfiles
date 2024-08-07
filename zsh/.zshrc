@@ -47,5 +47,5 @@ zsh_add_plugin "hlissner/zsh-autopair"
 # More completions https://github.com/zsh-users/zsh-completions
 
 if [ "$(tty)" = "/dev/tty1" ]; then
-    exec sway
+    dbus-run-session sway
 fi
