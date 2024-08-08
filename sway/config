@@ -249,6 +249,6 @@ font pango:FiraMono Nerd Font Mono Regular 10
 client.focused "#ff0000" "#ff0000" "#ff0000" "#433364" "#433364"
 
 exec_always udiskie --automount &
-exec --no-startup-id 'nm-applet --indicator'
+exec --no-startup-id blueman-applet
 exec pipewire
 exec pipewire-pulse
