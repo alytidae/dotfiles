@@ -49,3 +49,6 @@ zsh_add_plugin "hlissner/zsh-autopair"
 if [ "$(tty)" = "/dev/tty1" ]; then
     dbus-run-session sway
 fi
+
+# https://github.com/alytidae/habit.c
+habit
