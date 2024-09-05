@@ -18,6 +18,9 @@ export LSCOLORS=gxFxCxDxBxegedabagaced
 export XDG_SESSION_TYPE='wayland'
 export XDG_CURRENT_DESKTOP='sway'
 
+# Anki
+ANKI_WAYLAND=1
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
 	export EDITOR='vim'
