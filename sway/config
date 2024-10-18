@@ -62,27 +62,27 @@ exec swayidle -w \
 #
 # Basics:
 #
-    # Start a terminal
-    bindsym $mod+Return exec $term
+# Start a terminal
+bindsym $mod+Return exec $term
 
-    # Kill focused window
-    bindsym $mod+Shift+q kill
+# Kill focused window
+bindsym $mod+Shift+q kill
 
-    # Start your launcher
-    bindsym --to-code $mod+d exec $menu
+# Start your launcher
+bindsym --to-code $mod+d exec $menu
 
-    # Drag floating windows by holding down $mod and left mouse button.
-    # Resize them with right mouse button + $mod.
-    # Despite the name, also works for non-floating windows.
-    # Change normal to inverse to use left mouse button for resizing and right
-    # mouse button for dragging.
-    floating_modifier $mod normal
+# Drag floating windows by holding down $mod and left mouse button.
+# Resize them with right mouse button + $mod.
+# Despite the name, also works for non-floating windows.
+# Change normal to inverse to use left mouse button for resizing and right
+# mouse button for dragging.
+floating_modifier $mod normal
 
-    # Reload the configuration file
-    bindsym $mod+Shift+c reload
+# Reload the configuration file
+bindsym $mod+Shift+c reload
 
-    # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+# Exit sway (logs you out of your Wayland session)
+bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -227,9 +227,6 @@ input * {
 input type:touchpad {
    natural_scroll enabled 
 }
-
-#Idk if i need this...
-#xwayland disable
 
 # FN
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
