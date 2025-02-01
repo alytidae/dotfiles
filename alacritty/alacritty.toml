@@ -51,7 +51,7 @@ style = "Italic"
 family = "FiraMono Nerd Font Mono"
 style = "Regular"
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 
 [window]
@@ -60,3 +60,5 @@ dynamic_padding = true
 [window.padding]
 x = 0
 y = 0
+
+[terminal]
