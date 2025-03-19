@@ -47,7 +47,10 @@ zsh_add_plugin "hlissner/zsh-autopair"
 # More completions https://github.com/zsh-users/zsh-completions
 
 if [ "$(tty)" = "/dev/tty1" ]; then
+     #export XDG_CURRENT_DESKTOP=sway
+     #export WAYLAND_DISPLAY=wayland-1
+     #dbus-update-activation-environment --systemd WAYLAND_DISPLAY
      dbus-update-activation-environment --all
-    dbus-run-session sway
+     exec dbus-run-session sway
 fi
 

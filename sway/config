@@ -26,7 +26,9 @@ set $menu exec fuzzel -I -l 5 -b 191622ff -s 433364ff -S ff79c6ff -r 0 -B 3 -C 4
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/igor/docs/wallpaper/ghibli-wallpaper.jpg fill
+# https://github.com/getsolus/artwork/tree/master
+# https://github.com/BuddiesOfBudgie/budgie-backgrounds
+output * bg /home/igor/docs/wallpaper/dazzle.jpg fill
 #
 # Example configuration:
 #
@@ -36,7 +38,7 @@ output * bg /home/igor/docs/wallpaper/ghibli-wallpaper.jpg fill
 
 ### Idle configuration
 exec swayidle -w \
-	 before-sleep 'swaylock -i ~/docs/wallpaper/ghibli-wallpaper.jpg'
+	 before-sleep 'swaylock -i ~/docs/wallpaper/dazzle.jpg'
 #        timeout 300 'swaylock -f -c 000000' \
 #        timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
 
