@@ -251,3 +251,5 @@ exec_always udiskie --automount &
 exec --no-startup-id blueman-applet
 exec pipewire &
 exec pipewire-pulse &
+
+exec dbus-update-activation-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
