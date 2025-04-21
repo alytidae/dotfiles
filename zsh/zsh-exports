@@ -9,6 +9,7 @@ export GOPATH="${HOME}/ws/.go"
 
 export PATH="$HOME/ws/.cargo/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
+export PATH="/root/.cargo/bin:$PATH"
 
 #ls colorize
 export CLICOLOR=1
