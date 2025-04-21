@@ -222,7 +222,7 @@ bar {
 include /etc/sway/config.d/*
 
 input * {
-    xkb_layout us,ru
+    xkb_layout us,ru,es,de
     xkb_options grp:caps_toggle
 }
 
