@@ -23,3 +23,4 @@ $ ln -s /home/{username}/dotfiles/other/applications/{application} /home/{userna
 
 ## License
 Licensed under [The MIT License](https://opensource.org/license/mit/)
+
