@@ -38,7 +38,7 @@ output * bg /home/igor/docs/wallpaper/dazzle.jpg fill
 
 ### Idle configuration
 exec swayidle -w \
-	 before-sleep 'swaylock -i ~/docs/wallpaper/dazzle.jpg'
+ 	 before-sleep 'swaylock -i ~/docs/wallpaper/dazzle.jpg'
 #        timeout 300 'swaylock -f -c 000000' \
 #        timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
 
@@ -222,7 +222,7 @@ bar {
 include /etc/sway/config.d/*
 
 input * {
-    xkb_layout us,ru,es,de
+    xkb_layout us(intl),ru
     xkb_options grp:caps_toggle
 }
 
@@ -245,7 +245,7 @@ default_border pixel 3
 # coner_radius 0
 
 font pango:FiraMono Nerd Font Mono Regular 10
-client.focused "#ff0000" "#ff0000" "#ff0000" "#433364" "#433364"
+client.focused "#ff0000" "#ff0000" "#ff0000" "#191919" "#323232"
 
 exec_always udiskie --automount &
 exec --no-startup-id blueman-applet
