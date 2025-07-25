@@ -17,7 +17,7 @@ static const float urgentcolor[]           = COLOR(0xff0000ff);
 /* bar */
 static const int showbar                   = 1; /* 0 means no bar */
 static const int topbar                    = 1; /* 0 means bottom bar */
-static const char *fonts[]                 = {"monospace:size=10"};
+static const char *fonts[]                 = {"monospace:size=13"};
 
 static uint32_t colors[][3]                = {
 	/*               fg          bg          border    */
