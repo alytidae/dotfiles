@@ -1,7 +1,6 @@
 #!/bin/sh
 
 swaybg -i ~/Downloads/wp6405945-2135845896.png &
-waybar &
 udiskie --automount &
 blueman-applet &
 pipewire & disown
