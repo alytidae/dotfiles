@@ -1,3 +1,7 @@
+/* Patches
+bar - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/bar
+alwayscenter - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/alwayscenter
+*/
 #include <X11/XF86keysym.h>
 
 /* Taken from https://github.com/djpohly/dwl/issues/466 */
@@ -17,7 +21,7 @@ static const float urgentcolor[]           = COLOR(0xff0000ff);
 /* bar */
 static const int showbar                   = 1; /* 0 means no bar */
 static const int topbar                    = 1; /* 0 means bottom bar */
-static const char *fonts[]                 = {"monospace:size=13"};
+static const char *fonts[]                 = {"monospace:size=12"};
 
 static uint32_t colors[][3]                = {
 	/*               fg          bg          border    */
@@ -84,7 +88,7 @@ static const int repeat_rate = 25;
 static const int repeat_delay = 600;
 
 /* Trackpad */
-static const int tap_to_click = 1;
+static const int tap_to_click = 0;
 static const int tap_and_drag = 1;
 static const int drag_lock = 1;
 static const int natural_scrolling = 1;
@@ -140,7 +144,7 @@ static const enum libinput_config_tap_button_map button_map = LIBINPUT_CONFIG_TA
 
 /* commands */
 static const char *termcmd[]  = { "foot", NULL };
-static const char *menucmd[]  = { "wmenu-run", NULL };
+static const char *menucmd[]  = { "wmenu-run", "f", "monospace 12", NULL };
 static const char *up_vol[]   = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "+5%",   NULL };
 static const char *down_vol[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "-5%",   NULL };
 static const char *mute_vol[] = { "pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle", NULL };
