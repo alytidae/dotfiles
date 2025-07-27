@@ -1,7 +1,9 @@
 /* Patches
 bar - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/bar
 alwayscenter - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/alwayscenter
+ipc - https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/ipc for showing my layout
 */
+
 #include <X11/XF86keysym.h>
 
 /* Taken from https://github.com/djpohly/dwl/issues/466 */
