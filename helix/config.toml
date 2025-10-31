@@ -2,6 +2,7 @@ theme = "base16_transparent"
 
 [editor]
 auto-completion = false
+bufferline = "always"
 
 [editor.cursor-shape]
 insert = "bar"

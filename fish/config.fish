@@ -10,3 +10,5 @@ end
 # if test -z "$WAYLAND_DISPLAY" -a -z "$DISPLAY"
 # dbus-run-session -- dwl -s "$HOME/ws/dotfiles/autostart.sh" <&-
 # end
+
+starship init fish | source
