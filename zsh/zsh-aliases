@@ -1,7 +1,0 @@
-#!/bin/sh
-alias ls='ls --color=auto'
-alias ll='ls -lha'
-alias e='hx'
-alias bat='bat --theme="Dracula"'
-alias lg='lazygit'
-alias f='yazi'
