@@ -27,3 +27,5 @@ vim.opt.termguicolors = true
 vim.opt.swapfile = false
 
 vim.opt.undofile = true
+
+vim.opt.signcolumn = "yes"
